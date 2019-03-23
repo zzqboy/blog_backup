@@ -2,10 +2,12 @@
 title: erlang gb_tree平衡树做排行
 date: 2018-03-14 23:30:53
 tags: algorithm
+categories: 技术
 ---
 # 介绍
 平衡树简称AVL，出名的有红黑树，这里介绍一下erlang中gb_tree的实现
 gb_tree的原理比红黑树简单，没有过多的旋转跳跃闭着眼，是一种叫AA树的结构（Arne Andersson’s General Balanced Trees），有兴趣看这篇论文：[传送门](http://user.it.uu.se/~arnea/ps/simp.pdf)
+<!-- more -->
 
 # 结构
 {Size, Tree}是整个结构体，Tree的定义又是{Key, Value, Smaller, Bigger} | nil

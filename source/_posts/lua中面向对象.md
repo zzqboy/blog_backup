@@ -2,10 +2,12 @@
 title: lua中面向对象
 date: 2018-06-17 23:24:20
 tags: lua
+categories: 技术
 ---
 # pil实现方法
 要点：self语法糖、setmatetable元表、index方法
 提到了如何用__index方法来实现类和继承，让lua也具备面向对象的特性
+<!-- more -->
 
 ## Account.lua
 ```lua

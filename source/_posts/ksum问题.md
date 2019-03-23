@@ -1,7 +1,8 @@
 ---
 title: ksum问题
 date: 2018-06-09 23:28:00
-tags: algorithm
+tags: leetcode
+categories: 技术
 ---
 # 问题
 ```
