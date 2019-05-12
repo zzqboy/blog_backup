@@ -3,6 +3,7 @@ title: 改善A星路径的猜想
 date: 2018-12-16 00:06:29
 tags: algorithm
 categories: 技术
+cover: /img/改善A路径的猜想1.png
 ---
 # 问题
 如果周围都是可以寻路的点 并且是十字寻路，那么广度搜索和A*寻路的路径完全不一样  
